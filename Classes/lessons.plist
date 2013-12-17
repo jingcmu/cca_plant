@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CCAUniverse</key>
+	<dict>
+		<key>lesson1</key>
+		<dict>
+			<key>background_path</key>
+			<string>riceBgr</string>
+			<key>charsound_path</key>
+			<string>rice_charsound</string>
+			<key>icon_path</key>
+			<string>rice.png</string>
+			<key>intro_text</key>
+			<string>The old character shows four small grains of rice with a cross in the middle.  As the character changes, the two dots on the bottom grow into two long strokes.</string>
+			<key>lesson_id</key>
+			<integer>1</integer>
+			<key>lesson_morph_path</key>
+			<string>riceMorph</string>
+			<key>lesson_name</key>
+			<string>rice</string>
+			<key>lesson_stroke_path</key>
+			<string>RiceStroke</string>
+			<key>lesson_video_path</key>
+			<string>RiceVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_rice</string>
+			<key>subtitle_text</key>
+			<string>The old character shows four small grains of rice with a cross in the middle.  As the character changes, the two dots on the bottom grow into two long strokes.</string>
+		</dict>
+		<key>lesson10</key>
+		<dict>
+			<key>background_path</key>
+			<string>seeBgr</string>
+			<key>charsound_path</key>
+			<string>see_charsound</string>
+			<key>icon_path</key>
+			<string>see.png</string>
+			<key>intro_text</key>
+			<string>The old character for &quot;to see&quot; shows a large eye on top of a pair of legs. As the character changes, the eye rotates and the lines become more abstract.</string>
+			<key>lesson_id</key>
+			<integer>10</integer>
+			<key>lesson_morph_path</key>
+			<string>seeMorph</string>
+			<key>lesson_name</key>
+			<string>see</string>
+			<key>lesson_stroke_path</key>
+			<string>seeStroke</string>
+			<key>lesson_video_path</key>
+			<string>seeVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_see.png</string>
+			<key>subtitle_text</key>
+			<string>The old character for &quot;to see&quot; shows a large eye on top of a pair of legs. As the character changes, the eye rotates and the lines become more abstract.</string>
+		</dict>
+		<key>lesson11</key>
+		<dict>
+			<key>background_path</key>
+			<string>singBgr</string>
+			<key>charsound_path</key>
+			<string>sing_charsound</string>
+			<key>icon_path</key>
+			<string>sing.png</string>
+			<key>intro_text</key>
+			<string>The character for sing uses the mouth radical on the left side, while the right side gives us a clue about how the character sounds. The idea of breathing is suggested by the lower part of the right side of the character.</string>
+			<key>lesson_id</key>
+			<integer>11</integer>
+			<key>lesson_morph_path</key>
+			<string>singMorph</string>
+			<key>lesson_name</key>
+			<string>sing</string>
+			<key>lesson_stroke_path</key>
+			<string>singStroke</string>
+			<key>lesson_video_path</key>
+			<string>singVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_sing.png</string>
+			<key>subtitle_text</key>
+			<string>The character for sing uses the mouth radical on the left side, while the right side gives us a clue about how the character sounds. The idea of breathing is suggested by the lower part of the right side of the character.</string>
+		</dict>
+		<key>lesson12</key>
+		<dict>
+			<key>background_path</key>
+			<string>teethBgr</string>
+			<key>charsound_path</key>
+			<string>teeth_charsound</string>
+			<key>icon_path</key>
+			<string>teeth.png</string>
+			<key>intro_text</key>
+			<string>The old character shows a pair of canine teeth, fangs or tusks.  Later, the meaning of the character broadens to include human teeth.</string>
+			<key>lesson_id</key>
+			<integer>12</integer>
+			<key>lesson_morph_path</key>
+			<string>teethMorph</string>
+			<key>lesson_name</key>
+			<string>teeth</string>
+			<key>lesson_stroke_path</key>
+			<string>teethStroke</string>
+			<key>lesson_video_path</key>
+			<string>teethVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_teeth.png</string>
+			<key>subtitle_text</key>
+			<string>The old character shows a pair of canine teeth, fangs or tusks.  Later, the meaning of the character broadens to include human teeth.</string>
+		</dict>
+		<key>lesson2</key>
+		<dict>
+			<key>background_path</key>
+			<string>bambooBgr</string>
+			<key>charsound_path</key>
+			<string>bamboo_charsound</string>
+			<key>icon_path</key>
+			<string>bamboo.png</string>
+			<key>intro_text</key>
+			<string>The old character looks like two bamboo leaves.  Bamboo is strong and bends in the wind without breaking.  As the character changes, we can still see the strong stems and long leaves of a bamboo plant.</string>
+			<key>lesson_id</key>
+			<integer>2</integer>
+			<key>lesson_morph_path</key>
+			<string>bambooMorph</string>
+			<key>lesson_name</key>
+			<string>bamboo</string>
+			<key>lesson_stroke_path</key>
+			<string>BambooStroke</string>
+			<key>lesson_video_path</key>
+			<string>BambooVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_bamboo</string>
+			<key>subtitle_text</key>
+			<string>The old character looks like two bamboo leaves.  Bamboo is strong and bends in the wind without breaking.  As the character changes, we can still see the strong stems and long leaves of a bamboo plant.</string>
+		</dict>
+		<key>lesson3</key>
+		<dict>
+			<key>background_path</key>
+			<string>melonBgr</string>
+			<key>charsound_path</key>
+			<string>melon_charsound</string>
+			<key>icon_path</key>
+			<string>melon.png</string>
+			<key>intro_text</key>
+			<string>The old character shows a delicious melon growing on a vine.  You can almost taste the ripe fruit. Later, the melon becomes longer and thinner, but you can still see the fruit surrounded by vines and leaves.   </string>
+			<key>lesson_id</key>
+			<integer>3</integer>
+			<key>lesson_morph_path</key>
+			<string>melonMorph</string>
+			<key>lesson_name</key>
+			<string>melon</string>
+			<key>lesson_stroke_path</key>
+			<string>MelonStroke</string>
+			<key>lesson_video_path</key>
+			<string>MelonVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_melon</string>
+			<key>subtitle_text</key>
+			<string>The old character shows a delicious melon growing on a vine.  You can almost taste the ripe fruit. Later, the melon becomes longer and thinner, but you can still see the fruit surrounded by vines and leaves.   </string>
+		</dict>
+		<key>lesson4</key>
+		<dict>
+			<key>background_path</key>
+			<string>grassBgr</string>
+			<key>charsound_path</key>
+			<string>grass_charsound</string>
+			<key>icon_path</key>
+			<string>grass.png</string>
+			<key>intro_text</key>
+			<string>The common character for grass has two parts. The top part is the grass radical that shows two young grass plants that have sprouted from seed.  The bottom part is a phonetic, and is also a character that means &quot;early.&quot;   </string>
+			<key>lesson_id</key>
+			<integer>4</integer>
+			<key>lesson_morph_path</key>
+			<string>grassMorph</string>
+			<key>lesson_name</key>
+			<string>grass</string>
+			<key>lesson_stroke_path</key>
+			<string>GrassVideoStroke</string>
+			<key>lesson_video_path</key>
+			<string>GrassVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_grasscs</string>
+			<key>subtitle_text</key>
+			<string>The common character for grass has two parts. The top part is the grass radical that shows two young grass plants that have sprouted from seed.  The bottom part is a phonetic, and is also a character that means &quot;early.&quot;   </string>
+		</dict>
+		<key>lesson5</key>
+		<dict>
+			<key>background_path</key>
+			<string>grassRadBgr</string>
+			<key>charsound_path</key>
+			<string>grass_charsound</string>
+			<key>icon_path</key>
+			<string>grass_radical.png</string>
+			<key>intro_text</key>
+			<string>The ancient grass radical looks like a pair of grass sprouts.  In each sprout, the root at the bottom shoots up to form a stem at the top, while two young blades grow out on each side.  Later, all the blades of grass join together to become a single line.  This radical can refer to all kinds of plants that sprout from the earth.</string>
+			<key>lesson_id</key>
+			<integer>5</integer>
+			<key>lesson_morph_path</key>
+			<string>GrassRadicalMorph</string>
+			<key>lesson_name</key>
+			<string>grass radical</string>
+			<key>lesson_stroke_path</key>
+			<string>GrassRadicalStroke</string>
+			<key>lesson_video_path</key>
+			<string>GrassRadicalVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_grassrad</string>
+			<key>subtitle_text</key>
+			<string>The ancient grass radical looks like a pair of grass sprouts.  In each sprout, the root at the bottom shoots up to form a stem at the top, while two young blades grow out on each side.  Later, all the blades of grass join together to become a single line.  This radical can refer to all kinds of plants that sprout from the earth.</string>
+		</dict>
+		<key>lesson6</key>
+		<dict>
+			<key>background_path</key>
+			<string>flowerBgr</string>
+			<key>charsound_path</key>
+			<string>flower_charsound</string>
+			<key>icon_path</key>
+			<string>flower.png</string>
+			<key>intro_text</key>
+			<string>The old character for flower looks like a flowering tree.  The top part of the character shows the grass radical, while the bottom part tells us how the character sounds. The modern character suggests layers of petals unfurling to become a whole flower.</string>
+			<key>lesson_id</key>
+			<integer>6</integer>
+			<key>lesson_morph_path</key>
+			<string>flowerMorph</string>
+			<key>lesson_name</key>
+			<string>flower</string>
+			<key>lesson_stroke_path</key>
+			<string>FlowerStroke</string>
+			<key>lesson_video_path</key>
+			<string>FlowerVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_flowercs</string>
+			<key>subtitle_text</key>
+			<string>The old character for flower looks like a flowering tree.  The top part of the character shows the grass radical, while the bottom part tells us how the character sounds. The modern character suggests layers of petals unfurling to become a whole flower.</string>
+		</dict>
+		<key>lesson7</key>
+		<dict>
+			<key>background_path</key>
+			<string>woodBgr</string>
+			<key>charsound_path</key>
+			<string>wood_charsound</string>
+			<key>icon_path</key>
+			<string>wood.png</string>
+			<key>intro_text</key>
+			<string>The old character has the shape of a tree.  The top part of the character looks like branches that are reaching up to the sky, while the bottom part looks like roots that are growing down into the earth.</string>
+			<key>lesson_id</key>
+			<integer>7</integer>
+			<key>lesson_morph_path</key>
+			<string>woodMorph</string>
+			<key>lesson_name</key>
+			<string>wood</string>
+			<key>lesson_stroke_path</key>
+			<string>WoodStroke</string>
+			<key>lesson_video_path</key>
+			<string>WoodVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_wood</string>
+			<key>subtitle_text</key>
+			<string>The old character has the shape of a tree.  The top part of the character looks like branches that are reaching up to the sky, while the bottom part looks like roots that are growing down into the earth.</string>
+		</dict>
+		<key>lesson8</key>
+		<dict>
+			<key>background_path</key>
+			<string>woodRadBgr</string>
+			<key>charsound_path</key>
+			<string>wood_charsound</string>
+			<key>icon_path</key>
+			<string>wood_radical.png</string>
+			<key>intro_text</key>
+			<string>The wood radical is a picture of a tree, just like the stand-alone character.  This radical often stands on the left side, representing wood, a tree, or something very straight. In the modern radical, the long curvy stroke on the right shrinks down and changes into a dot.</string>
+			<key>lesson_id</key>
+			<integer>8</integer>
+			<key>lesson_morph_path</key>
+			<string>woodRadicalMorph</string>
+			<key>lesson_name</key>
+			<string>wood radical</string>
+			<key>lesson_stroke_path</key>
+			<string>WoodRadicalStroke</string>
+			<key>lesson_video_path</key>
+			<string>WoodRadicalVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_woodrad</string>
+			<key>subtitle_text</key>
+			<string>The wood radical is a picture of a tree, just like the stand-alone character.  This radical often stands on the left side, representing wood, a tree, or something very straight. In the modern radical, the long curvy stroke on the right shrinks down and changes into a dot.</string>
+		</dict>
+		<key>lesson9</key>
+		<dict>
+			<key>background_path</key>
+			<string>forestBgr</string>
+			<key>charsound_path</key>
+			<string>forest_charsound</string>
+			<key>icon_path</key>
+			<string>forest.png</string>
+			<key>intro_text</key>
+			<string>The character for forest shows two trees standing side by side.   In the modern character, the two trees change into slightly different forms.</string>
+			<key>lesson_id</key>
+			<integer>9</integer>
+			<key>lesson_morph_path</key>
+			<string>forestMorph</string>
+			<key>lesson_name</key>
+			<string>forest</string>
+			<key>lesson_stroke_path</key>
+			<string>ForestStroke</string>
+			<key>lesson_video_path</key>
+			<string>ForestVideo</string>
+			<key>practice_imgbg_path</key>
+			<string>Practice_forest</string>
+			<key>subtitle_text</key>
+			<string>The character for forest shows two trees standing side by side.   In the modern character, the two trees change into slightly different forms.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
