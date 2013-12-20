@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @interface LessonConfig : NSObject {
 	int lesson_id;
 	NSString *series_name;

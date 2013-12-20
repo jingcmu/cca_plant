@@ -15,11 +15,13 @@
 + (LessonConfig *)loadLessonConfigWithSeriesName:(NSString *)series_name andLessonId:(int)lesson_id
 {
 	NSString *plist_path = [[NSBundle mainBundle] pathForResource:@"lessons" ofType:@"plist"];
+    
 	NSMutableDictionary *allDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plist_path];
 	NSMutableDictionary *seriesLessonConfigsDict = [allDict objectForKey: SERIES1_NAME]; 
-	NSMutableDictionary *lessonConfigDict = [seriesLessonConfigsDict objectForKey:[NSString stringWithFormat:@"%@%d",@"lesson",lesson_id]];
+	NSMutableDictionary *lessonConfigDict =
+    [seriesLessonConfigsDict objectForKey:[NSString stringWithFormat:@"%@%d",@"lesson",lesson_id]];
 	LessonConfig *lessonConfig = [[LessonConfig alloc] init];
-	
+	NSLog(@"Plist_Path is %@", plist_path);
 	lessonConfig.lesson_id = [[lessonConfigDict objectForKey:@"lesson_id"] intValue];
 	lessonConfig.series_name = [lessonConfigDict objectForKey:@"series_name"];
 	lessonConfig.lesson_name = [lessonConfigDict objectForKey:@"lesson_name"];
@@ -44,7 +46,7 @@
 	NSString *plist_path = [[NSBundle mainBundle] pathForResource:@"lessons" ofType:@"plist"];
 	NSMutableDictionary *allDict = [[NSMutableDictionary alloc] initWithContentsOfFile:plist_path];
 	NSMutableDictionary *seriesLessonConfigsDict = [allDict objectForKey: SERIES1_NAME]; 
-	NSMutableDictionary *lessonConfigDict = [seriesLessonConfigsDict objectForKey:[NSString stringWithFormat:@"%@%@",@"lesson",lesson_id]];
+	NSMutableDictionary *lessonConfigDict = [seriesLessonConfigsDict objectForKey:[NSString stringWithFormat:@"%@%d",@"lesson",lesson_id]];
 	NSString *icon_path = [lessonConfigDict objectForKey:@"icon_path"];
 	return icon_path;
 }

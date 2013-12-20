@@ -10,7 +10,7 @@
 
 @implementation Config
 
-NSString * const SERIES1_NAME = @"CCAUniverse";
+NSString * const SERIES1_NAME = @"CCAPlant";
 
 
 @end

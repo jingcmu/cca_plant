@@ -18,7 +18,6 @@
 		2A216E4E12C31D7E005CE63C /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A216E4D12C31D7E005CE63C /* Config.m */; };
 		2A216E5212C32203005CE63C /* LessonConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A216E5112C32203005CE63C /* LessonConfig.m */; };
 		2A216E5512C32240005CE63C /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A216E5412C32240005CE63C /* PlistManager.m */; };
-		2A216E5812C32BF9005CE63C /* lessons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A216E5712C32BF9005CE63C /* lessons.plist */; };
 		2A216FC512CDC60B005CE63C /* LessonCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A216FC312CDC60B005CE63C /* LessonCatalogViewController.m */; };
 		2A216FC612CDC60B005CE63C /* LessonCatalogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A216FC412CDC60B005CE63C /* LessonCatalogViewController.xib */; };
 		2A21717C12D13351005CE63C /* LessonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A21717A12D13351005CE63C /* LessonDetailViewController.m */; };
@@ -129,6 +128,7 @@
 		70E7B36B176AEDEC00BF534A /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E7B36A176AEDEC00BF534A /* Video.png */; };
 		70E7B36D176AEDF000BF534A /* StrokeOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E7B36C176AEDF000BF534A /* StrokeOrder.png */; };
 		70E7B36F176AEE4300BF534A /* Morph.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E7B36E176AEE4300BF534A /* Morph.png */; };
+		8500B0FA1864100F00E5B271 /* lessons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8500B0F91864100F00E5B271 /* lessons.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,7 +149,6 @@
 		2A216E5112C32203005CE63C /* LessonConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonConfig.m; sourceTree = "<group>"; };
 		2A216E5312C32240005CE63C /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
 		2A216E5412C32240005CE63C /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
-		2A216E5712C32BF9005CE63C /* lessons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lessons.plist; sourceTree = "<group>"; };
 		2A216FC212CDC60B005CE63C /* LessonCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonCatalogViewController.h; sourceTree = "<group>"; };
 		2A216FC312CDC60B005CE63C /* LessonCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonCatalogViewController.m; sourceTree = "<group>"; };
 		2A216FC412CDC60B005CE63C /* LessonCatalogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LessonCatalogViewController.xib; path = Classes/LessonCatalogViewController.xib; sourceTree = "<group>"; };
@@ -192,14 +191,14 @@
 		2AE56A3F122D1274000B0032 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		2AE56A40122D1274000B0032 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		2AE56A6E122D12AF000B0032 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		2AE56B42122D1665000B0032 /* charframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charframe.png; path = "PlantKingdom Graphic File/charframe.png"; sourceTree = "<group>"; };
+		2AE56B42122D1665000B0032 /* charframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charframe.png; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CCA Plant iPhone_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCA Plant iPhone_Prefix.pch"; sourceTree = "<group>"; };
 		700F0EF317A0A84700DA7385 /* aboutus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutus.png; sourceTree = "<group>"; };
 		70326BAE179CDA4400FD19EC /* flowerBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flowerBgr.png; sourceTree = "<group>"; };
 		70326BAF179CDA4400FD19EC /* grassBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassBgr.png; sourceTree = "<group>"; };
 		70326BB0179CDA4400FD19EC /* grassRadBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grassRadBgr.png; sourceTree = "<group>"; };
 		70326BB1179CDA4400FD19EC /* woodBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woodBgr.png; sourceTree = "<group>"; };
-		70491B16176151570043CD21 /* App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Icon.png"; sourceTree = "<group>"; };
+		70491B16176151570043CD21 /* App Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App Icon.png"; path = "assets/image/App Icon.png"; sourceTree = "<group>"; };
 		705AAB401769633A00DBA7A4 /* bambooBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bambooBgr.png; sourceTree = "<group>"; };
 		705AAB411769633A00DBA7A4 /* forestBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forestBgr.png; sourceTree = "<group>"; };
 		705AAB421769633A00DBA7A4 /* melonBgr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melonBgr.png; sourceTree = "<group>"; };
@@ -223,7 +222,7 @@
 		705AAB7117696B9E00DBA7A4 /* bamboo_charsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bamboo_charsound.mp3; sourceTree = "<group>"; };
 		705AAB7217696B9E00DBA7A4 /* grass_charsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = grass_charsound.mp3; sourceTree = "<group>"; };
 		705AAB7417696B9E00DBA7A4 /* rice_charsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rice_charsound.mp3; sourceTree = "<group>"; };
-		705AAB8A1769716B00DBA7A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		705AAB8A1769716B00DBA7A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "assets/image/Default-568h@2x.png"; sourceTree = "<group>"; };
 		705AABAA176AE6CB00DBA7A4 /* riceMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = riceMorph.mp4; sourceTree = "<group>"; };
 		705AABAC176AE6D300DBA7A4 /* bambooMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bambooMorph.mp4; sourceTree = "<group>"; };
 		705AABAE176AE6DA00DBA7A4 /* melonMorph.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = melonMorph.mp4; sourceTree = "<group>"; };
@@ -271,6 +270,7 @@
 		70E7B36A176AEDEC00BF534A /* Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video.png; sourceTree = "<group>"; };
 		70E7B36C176AEDF000BF534A /* StrokeOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrokeOrder.png; sourceTree = "<group>"; };
 		70E7B36E176AEE4300BF534A /* Morph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morph.png; sourceTree = "<group>"; };
+		8500B0F91864100F00E5B271 /* lessons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = lessons.plist; path = assets/lessons.plist; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* CCA Plant iPhone-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCA Plant iPhone-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -404,7 +404,7 @@
 				2A216E5612C322DB005CE63C /* POCO */,
 				2A216E5312C32240005CE63C /* PlistManager.h */,
 				2A216E5412C32240005CE63C /* PlistManager.m */,
-				2A216E5712C32BF9005CE63C /* lessons.plist */,
+				8500B0F91864100F00E5B271 /* lessons.plist */,
 			);
 			name = PList;
 			sourceTree = "<group>";
@@ -436,6 +436,7 @@
 				2AE56B22122D1664000B0032 /* button(stroke,morph,video,practice) */,
 			);
 			name = UniverseImages;
+			path = assets/image;
 			sourceTree = "<group>";
 		};
 		2A21750212D1D834005CE63C /* UniverseVideos */ = {
@@ -452,6 +453,7 @@
 				2A21750612D1D85A005CE63C /* forest */,
 			);
 			name = UniverseVideos;
+			path = assets/video;
 			sourceTree = "<group>";
 		};
 		2A21750612D1D85A005CE63C /* forest */ = {
@@ -636,6 +638,7 @@
 				705AAB7417696B9E00DBA7A4 /* rice_charsound.mp3 */,
 			);
 			name = UniverseAudios;
+			path = assets/audio;
 			sourceTree = "<group>";
 		};
 		2AE56B22122D1664000B0032 /* button(stroke,morph,video,practice) */ = {
@@ -673,6 +676,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 7KKLU7B38Y;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CCA Plant iPhone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -701,7 +709,6 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* UniverseKingdomViewController.xib in Resources */,
 				2AE56BAF122D1668000B0032 /* charframe.png in Resources */,
-				2A216E5812C32BF9005CE63C /* lessons.plist in Resources */,
 				2A216FC612CDC60B005CE63C /* LessonCatalogViewController.xib in Resources */,
 				2A21717D12D13351005CE63C /* LessonDetailViewController.xib in Resources */,
 				2AAA7505130FA83200223D26 /* close_btn.png in Resources */,
@@ -738,6 +745,7 @@
 				705AAB67176969FB00DBA7A4 /* rice.png in Resources */,
 				705AAB68176969FB00DBA7A4 /* wood.png in Resources */,
 				705AAB69176969FB00DBA7A4 /* wood_radical.png in Resources */,
+				8500B0FA1864100F00E5B271 /* lessons.plist in Resources */,
 				705AAB6B17696A4900DBA7A4 /* icon.png in Resources */,
 				705AAB7517696B9E00DBA7A4 /* wood_charsound.mp3 in Resources */,
 				705AAB7717696B9E00DBA7A4 /* flower_charsound.mp3 in Resources */,
@@ -835,7 +843,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: US Asia Internet (7KKLU7B38Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -845,7 +854,7 @@
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "CCA Plant iPhone";
-				PROVISIONING_PROFILE = "57EC6677-79B1-4133-90F0-96D681226EDD";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -854,7 +863,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: US Asia Internet (7KKLU7B38Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCA Plant iPhone_Prefix.pch";
@@ -862,7 +872,7 @@
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "CCA Plant iPhone";
-				PROVISIONING_PROFILE = "57EC6677-79B1-4133-90F0-96D681226EDD";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -889,7 +899,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: US Asia Internet (7KKLU7B38Y)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CCA Plant iPhone_Prefix.pch";
@@ -897,7 +908,7 @@
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "CCA Plant iPhone";
-				PROVISIONING_PROFILE = "57EC6677-79B1-4133-90F0-96D681226EDD";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};

@@ -245,9 +245,6 @@
 	 name:MPMoviePlayerPlaybackDidFinishNotification
 	 object:player];
     [player.view removeFromSuperview];
-    [super viewDidUnload];
-//	[player release];
-	//[subtitlePopup hideToLeft];
     [self showIntroPopup];
 	
 }

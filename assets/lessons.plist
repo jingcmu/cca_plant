@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CCAUniverse</key>
+	<key>CCAPlant</key>
 	<dict>
 		<key>lesson1</key>
 		<dict>
@@ -28,81 +28,6 @@
 			<string>Practice_rice</string>
 			<key>subtitle_text</key>
 			<string>The old character shows four small grains of rice with a cross in the middle.  As the character changes, the two dots on the bottom grow into two long strokes.</string>
-		</dict>
-		<key>lesson10</key>
-		<dict>
-			<key>background_path</key>
-			<string>seeBgr</string>
-			<key>charsound_path</key>
-			<string>see_charsound</string>
-			<key>icon_path</key>
-			<string>see.png</string>
-			<key>intro_text</key>
-			<string>The old character for &quot;to see&quot; shows a large eye on top of a pair of legs. As the character changes, the eye rotates and the lines become more abstract.</string>
-			<key>lesson_id</key>
-			<integer>10</integer>
-			<key>lesson_morph_path</key>
-			<string>seeMorph</string>
-			<key>lesson_name</key>
-			<string>see</string>
-			<key>lesson_stroke_path</key>
-			<string>seeStroke</string>
-			<key>lesson_video_path</key>
-			<string>seeVideo</string>
-			<key>practice_imgbg_path</key>
-			<string>Practice_see.png</string>
-			<key>subtitle_text</key>
-			<string>The old character for &quot;to see&quot; shows a large eye on top of a pair of legs. As the character changes, the eye rotates and the lines become more abstract.</string>
-		</dict>
-		<key>lesson11</key>
-		<dict>
-			<key>background_path</key>
-			<string>singBgr</string>
-			<key>charsound_path</key>
-			<string>sing_charsound</string>
-			<key>icon_path</key>
-			<string>sing.png</string>
-			<key>intro_text</key>
-			<string>The character for sing uses the mouth radical on the left side, while the right side gives us a clue about how the character sounds. The idea of breathing is suggested by the lower part of the right side of the character.</string>
-			<key>lesson_id</key>
-			<integer>11</integer>
-			<key>lesson_morph_path</key>
-			<string>singMorph</string>
-			<key>lesson_name</key>
-			<string>sing</string>
-			<key>lesson_stroke_path</key>
-			<string>singStroke</string>
-			<key>lesson_video_path</key>
-			<string>singVideo</string>
-			<key>practice_imgbg_path</key>
-			<string>Practice_sing.png</string>
-			<key>subtitle_text</key>
-			<string>The character for sing uses the mouth radical on the left side, while the right side gives us a clue about how the character sounds. The idea of breathing is suggested by the lower part of the right side of the character.</string>
-		</dict>
-		<key>lesson12</key>
-		<dict>
-			<key>background_path</key>
-			<string>teethBgr</string>
-			<key>charsound_path</key>
-			<string>teeth_charsound</string>
-			<key>icon_path</key>
-			<string>teeth.png</string>
-			<key>intro_text</key>
-			<string>The old character shows a pair of canine teeth, fangs or tusks.  Later, the meaning of the character broadens to include human teeth.</string>
-			<key>lesson_id</key>
-			<integer>12</integer>
-			<key>lesson_morph_path</key>
-			<string>teethMorph</string>
-			<key>lesson_name</key>
-			<string>teeth</string>
-			<key>lesson_stroke_path</key>
-			<string>teethStroke</string>
-			<key>lesson_video_path</key>
-			<string>teethVideo</string>
-			<key>practice_imgbg_path</key>
-			<string>Practice_teeth.png</string>
-			<key>subtitle_text</key>
-			<string>The old character shows a pair of canine teeth, fangs or tusks.  Later, the meaning of the character broadens to include human teeth.</string>
 		</dict>
 		<key>lesson2</key>
 		<dict>

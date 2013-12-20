@@ -8,9 +8,7 @@
 
 #import "LessonConfig.h"
 
-
 @implementation LessonConfig
-
 @synthesize lesson_id;
 @synthesize series_name;
 @synthesize lesson_name;
@@ -27,5 +25,4 @@
 @synthesize component_final_path;
 @synthesize intro_text;
 @synthesize subtitle_text;
-
 @end

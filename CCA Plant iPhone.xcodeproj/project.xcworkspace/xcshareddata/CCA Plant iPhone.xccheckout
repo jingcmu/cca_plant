@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>814A728B-8463-4B1D-A3CA-639C86FB0C69</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CCA Plant iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5C7E1EAA-87F8-4D7B-AA66-B13B4FB1D714</key>
+		<string>ssh://github.com/jingcmu/cca_plant.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CCA Plant iPhone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5C7E1EAA-87F8-4D7B-AA66-B13B4FB1D714</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jingcmu/cca_plant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5C7E1EAA-87F8-4D7B-AA66-B13B4FB1D714</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5C7E1EAA-87F8-4D7B-AA66-B13B4FB1D714</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCAPlant-IPhone</string>
+		</dict>
+	</array>
+</dict>
+</plist>
