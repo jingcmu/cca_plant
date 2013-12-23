@@ -101,7 +101,12 @@
 	btnLesson1 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
 	btnLesson1.frame = CGRectMake(40,20,50,50);
 	btnLesson1.tag = 1;
-	[btnLesson1 setImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
+    UIImage* UII = [UIImage imageNamed:@"rice.png"];
+    if(UII == nil)
+        NSLog(@"UII is nil\n\n");
+    else
+        NSLog(@"UII is not nil\n\n");
+	[btnLesson1 setImage:[UIImage imageNamed:@"rice.png"] forState:UIControlStateNormal];
 	[btnLesson1 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
 	[catalogView addSubview:btnLesson1];
 	
