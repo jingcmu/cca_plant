@@ -189,7 +189,7 @@
 	player.repeatMode = MPMovieRepeatModeNone;
     
    // self.navigationController.navigationBar.frame = CGRectOffset(self.navigationController.navigationBar.frame, 0, -20.0);
-     player.view.frame = CGRectMake(0, -20, 320, 480); // 0,0,1024, 768
+     player.view.frame = CGRectMake(0, 0, 320, 480); // 0,0,1024, 768
     [player prepareToPlay];
 	[player play];
 	
@@ -230,7 +230,7 @@
     
 //	player.scalingMode = MPMovieScalingModeAspectFill;
 //	player.repeatMode = MPMovieRepeatModeOne;
-    player.view.frame = CGRectMake(0, -20, 320, 480); // 0,0,1024, 768
+    player.view.frame = CGRectMake(0, 0, 320, 480); // 0,0,1024, 768
 	[player play];
 	[super viewDidLoad];
     
