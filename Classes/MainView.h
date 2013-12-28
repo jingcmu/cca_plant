@@ -17,12 +17,9 @@
 @class LessonCatalogViewController;
 
 @interface MainView : UIView {
-	
 	IBOutlet InfoView *infoView;
 	IBOutlet AboutUsView *aboutUsView;
 	IBOutlet LessonCatalogView *lessonCatalogView;
-	
-
 }
 
 //Switches to AboutUs View.
@@ -34,7 +31,6 @@
 //Switches to LessonView.
 -(void)goToLesson;
 
-
 //Clears AboutUs View.
 -(void)clearAboutUsView;
 
@@ -43,6 +39,5 @@
 
 //Clears LessonView.
 -(void)clearLessonView;
-
 
 @end

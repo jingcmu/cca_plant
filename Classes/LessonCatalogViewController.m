@@ -98,7 +98,7 @@
 	[lblLesson1 setBackgroundColor:[UIColor clearColor]];
 	[catalogView addSubview:lblLesson1];
 	
-	btnLesson1 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
+	/*btnLesson1 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
 	btnLesson1.frame = CGRectMake(40,20,50,50);
 	btnLesson1.tag = 1;
     UIImage* UII = [UIImage imageNamed:@"rice.png"];
@@ -108,7 +108,7 @@
         NSLog(@"UII is not nil\n\n");
 	[btnLesson1 setImage:[UIImage imageNamed:@"rice.png"] forState:UIControlStateNormal];
 	[btnLesson1 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson1];
+	[catalogView addSubview:btnLesson1];*/
 	
 	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:2];
 	
