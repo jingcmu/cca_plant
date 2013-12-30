@@ -3,7 +3,8 @@
 //  universe proj 265d
 //
 //  Created by Kai Chu  on 8/30/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Updated by Jacky Chen on 12/27/13
+//  Copyright 2010 CCA. All rights reserved.
 //
 
 #import "MainView.h"
@@ -12,28 +13,21 @@
 #import "InstructionView.h"
 #import "LessonCatalogViewController.h"
 
-
-
 @implementation MainView
- 
 
 -(void)awakeFromNib
 {
-  
 	[self addSubview: infoView];
 }
- 
-
 
 //Switches to AboutUs View.
 -(void)goToAboutUs{
     [lessonCatalogView removeFromSuperview];
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.3];
-	
+	//add aboutUsView to MainView
 	[self addSubview: aboutUsView];
 	[UIView commitAnimations];
-
 }
 
 //Switches to InfoView.
