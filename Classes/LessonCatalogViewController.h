@@ -26,9 +26,6 @@
 	UIButton *btnLesson7;
 	UIButton *btnLesson8;
 	UIButton *btnLesson9;
-	UIButton *btnLesson10;
-	UIButton *btnLesson11;
-	UIButton *btnLesson12;
 	UILabel *lblLesson1;
 	UILabel *lblLesson2;
 	UILabel *lblLesson3;
@@ -38,9 +35,6 @@
 	UILabel *lblLesson7;
 	UILabel *lblLesson8;
 	UILabel *lblLesson9;
-	UILabel *lblLesson10;
-	UILabel *lblLesson11;
-	UILabel *lblLesson12;
 }
 
 @property (nonatomic, retain) UINavigationBar * navbar;
