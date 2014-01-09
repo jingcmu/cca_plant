@@ -106,6 +106,7 @@
 // Scrollable Text
 -(IBAction)showIntroPopup
 {
+    
 	[introPopup lblText].text = lessonConfig.intro_text;
 	[introPopup lblText].frame = CGRectMake(4,4,275,140);
 	[introPopup lblText].layer.backgroundColor = [UIColor clearColor].CGColor; 
@@ -165,21 +166,19 @@
 
 -(void)playMovieAtURL:(NSURL*)theURL
 {
- 
-    
-	MPMoviePlayerViewController *playerViewController = 
+    MPMoviePlayerViewController *playerViewController =
     [[MPMoviePlayerViewController alloc] 
-	 initWithContentURL:theURL];
+    initWithContentURL:theURL];
     
     [[NSNotificationCenter defaultCenter] 
-	 addObserver:self
-	 selector:@selector(movieFinishedCallback:)
-	 name:MPMoviePlayerPlaybackDidFinishNotification
-	 object:[playerViewController moviePlayer]];
-  
-    
-    [self.view addSubview:playerViewController.view];
+    addObserver:self
+    selector:@selector(movieFinishedCallback:)
+    name:MPMoviePlayerPlaybackDidFinishNotification
+    object:[playerViewController moviePlayer]];
 
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [playerViewController.view setCenter:CGPointMake(result.width/2, result.height/2)];
+    [self.view addSubview:playerViewController.view];
     
     //---play movie---
     MPMoviePlayerController *player = [playerViewController moviePlayer];
@@ -188,8 +187,8 @@
     //	player.scalingMode = MPMovieScalingModeAspectFill;
 	player.repeatMode = MPMovieRepeatModeNone;
     
-   // self.navigationController.navigationBar.frame = CGRectOffset(self.navigationController.navigationBar.frame, 0, -20.0);
-     player.view.frame = CGRectMake(0, 0, 320, 480); // 0,0,1024, 768
+    player.view.frame = CGRectMake(0, 0, 320, 480); // 0,0,1024, 768
+
     [player prepareToPlay];
 	[player play];
 	
@@ -221,6 +220,8 @@
 	 name:MPMoviePlayerPlaybackDidFinishNotification
 	 object:[playerViewController moviePlayer]];
     
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [playerViewController.view setCenter:CGPointMake(result.width/2, result.height/2)];
     [self.view addSubview:playerViewController.view];
     
     //---play movie---
@@ -230,6 +231,8 @@
     
 //	player.scalingMode = MPMovieScalingModeAspectFill;
 //	player.repeatMode = MPMovieRepeatModeOne;
+    
+    
     player.view.frame = CGRectMake(0, 0, 320, 480); // 0,0,1024, 768
 	[player play];
 	[super viewDidLoad];

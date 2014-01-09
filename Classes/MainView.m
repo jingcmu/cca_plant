@@ -17,7 +17,10 @@
 
 -(void)awakeFromNib
 {
-	[self addSubview: infoView];
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [infoView setCenter:CGPointMake(result.width/2, result.height/2)];
+
+    [self addSubview: infoView];
 }
 
 //Switches to AboutUs View.
@@ -26,6 +29,8 @@
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.3];
 	//add aboutUsView to MainView
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [aboutUsView setCenter:CGPointMake(result.width/2, result.height/2)];
 	[self addSubview: aboutUsView];
 	[UIView commitAnimations];
 }
@@ -37,6 +42,8 @@
     }
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.3];
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [infoView setCenter:CGPointMake(result.width/2, result.height/2)];
 	[self addSubview: infoView];
 	[UIView commitAnimations];
 }
@@ -44,6 +51,9 @@
 //Switches to LessonView.
 -(void)goToLesson{
 	LessonCatalogViewController *controller = [[LessonCatalogViewController alloc] initWithNibName:@"LessonCatalogViewController" bundle:nil];
+    
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [controller.view setCenter:CGPointMake(result.width/2, result.height/2)];
 	[self addSubview: controller.view];
 }
  

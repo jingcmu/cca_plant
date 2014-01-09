@@ -19,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after app launch    
+    // Override point for customization after app launch
+    CGSize result = [[UIScreen mainScreen] bounds].size;
+    [viewController.view setCenter:CGPointMake(result.width/2, result.height/2)];
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
 	

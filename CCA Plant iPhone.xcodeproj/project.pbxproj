@@ -129,6 +129,7 @@
 		70E7B36D176AEDF000BF534A /* StrokeOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E7B36C176AEDF000BF534A /* StrokeOrder.png */; };
 		70E7B36F176AEE4300BF534A /* Morph.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E7B36E176AEE4300BF534A /* Morph.png */; };
 		8500B0FA1864100F00E5B271 /* lessons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8500B0F91864100F00E5B271 /* lessons.plist */; };
+		855B0491187DF001008EDE5D /* CCA Plant iPhone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* CCA Plant iPhone-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -751,6 +752,7 @@
 				705AAB7717696B9E00DBA7A4 /* flower_charsound.mp3 in Resources */,
 				705AAB7817696B9E00DBA7A4 /* forest_charsound.mp3 in Resources */,
 				705AAB7917696B9E00DBA7A4 /* melon_charsound.mp3 in Resources */,
+				855B0491187DF001008EDE5D /* CCA Plant iPhone-Info.plist in Resources */,
 				705AAB7A17696B9E00DBA7A4 /* bamboo_charsound.mp3 in Resources */,
 				705AAB7B17696B9E00DBA7A4 /* grass_charsound.mp3 in Resources */,
 				705AAB7D17696B9E00DBA7A4 /* rice_charsound.mp3 in Resources */,
@@ -852,7 +854,7 @@
 				GCC_PREFIX_HEADER = "CCA Plant iPhone_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "CCA Plant iPhone";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -870,7 +872,7 @@
 				GCC_PREFIX_HEADER = "CCA Plant iPhone_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "CCA Plant iPhone";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -905,7 +907,7 @@
 				GCC_PREFIX_HEADER = "CCA Plant iPhone_Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "CCA Plant iPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "CCA Plant iPhone";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;

@@ -75,8 +75,7 @@
 }
 
 - (void)loadView
-{
-    
+{    
 	LessonConfig *config = nil;
 	UIView *catalogView = [[[UIView alloc] initWithFrame:CGRectMake(10,105,300,250)] autorelease];
 	catalogView.backgroundColor = [UIColor clearColor];
@@ -264,7 +263,8 @@
 - (void)gotoLessonDetailViewController
 {
 	LessonDetailViewController *controller = [[LessonDetailViewController alloc] initWithNibName:@"LessonDetailViewController" bundle:nil];
-	
+	CGSize result = [[UIScreen mainScreen] bounds].size;
+    [controller.view setCenter:CGPointMake(result.width/2, result.height/2)];
 	[[super.view superview] addSubview:controller.view];
 }
 @end

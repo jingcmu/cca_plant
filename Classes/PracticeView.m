@@ -33,15 +33,6 @@
     [super dealloc];
 }
 
-
-//erases all the lines drawn
--(IBAction)eraseLines
-{
-	drawImage.image = nil;
-
-}
-
-
 //back to the lesson
 -(IBAction)backToLesson
 {
@@ -51,11 +42,15 @@
 //goes to the insrutions page
 -(IBAction)gotoInstructions
 {
-	
 	[self addSubview:instructionView];
 }
 
-
+//erases all the lines drawn
+-(IBAction)eraseLines
+{
+	drawImage.image = nil;
+    
+}
 
 //toggles whether the character is hidden or shown.
 -(IBAction)showHideChar
