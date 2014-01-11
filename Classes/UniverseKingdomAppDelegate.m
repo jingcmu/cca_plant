@@ -24,7 +24,7 @@
     [viewController.view setCenter:CGPointMake(result.width/2, result.height/2)];
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
-	
+    
 
 	return YES;
 }

@@ -12,24 +12,14 @@
 @implementation PracticeView
 
 
-- (id)initWithFrame:(CGRect)frame {
-    
+- (id)initWithFrame:(CGRect)frame
+{
     self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code.
-    }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code.
-}
-*/
-
-- (void)dealloc {
+- (void)dealloc
+{
     [super dealloc];
 }
 
@@ -49,10 +39,9 @@
 -(IBAction)eraseLines
 {
 	drawImage.image = nil;
-    
 }
 
-//toggles whether the character is hidden or shown.
+//toggles whether the character is hidden or shown by changing the background image
 -(IBAction)showHideChar
 {
 	if(charIsVisible)
@@ -73,7 +62,6 @@
 -(void)awakeFromNib
 {
     //[super viewDidLoad];
-	
 	lessonConfig = [PlistManager loadCurrentLessonConfig];
 	imgBackground_path = lessonConfig.practice_imgbg_path;
 	imgBackground.image = [UIImage imageNamed:imgBackground_path];
@@ -83,20 +71,17 @@
 	[self setBackgroundColor: [UIColor colorWithRed:0 green:0 blue:0 alpha:0]];
 	mouseMoved = 0;
 	charIsVisible = TRUE;
-
-	
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
 	mouseSwiped = NO;
 	UITouch *touch = [touches anyObject];
-	
 	lastPoint = [touch locationInView:self];
 }
 
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
-	
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
 	UITouch *touch = [touches anyObject];	
 	CGPoint currentPoint = [touch locationInView:self];
 	
@@ -121,8 +106,8 @@
 		
 		mouseMoved++;
 		
-		if (mouseMoved == 10) {
-			
+		if (mouseMoved == 10)
+        {
 			mouseMoved = 0;
 		}
 	}

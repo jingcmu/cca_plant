@@ -31,16 +31,15 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 // anything related to status bar is affected here
 - (void)viewDidLoad {
-    
   
 	[super viewDidLoad];
-    self.navigationController.navigationBar.frame = CGRectOffset(self.navigationController.navigationBar.frame, 0.0, -900.0);
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:NO];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:NO];
+    //self.navigationController.navigationBar.frame = CGRectOffset(self.navigationController.navigationBar.frame, 0.0, -900.0);
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:NO];
+    //[[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:NO];
    
 	lessonConfig = [PlistManager loadCurrentLessonConfig];
 	
-	navbar.topItem.title = lessonConfig.lesson_name;
+	//navbar.topItem.title = lessonConfig.lesson_name;
 	[img_background setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:lessonConfig.background_path ofType:@"png"]]];	
 	
 	[self showIntroPopup];
@@ -49,8 +48,6 @@
 		[component_btn removeFromSuperview];
         [intro_btn removeFromSuperview];
 	}
-	
-	
 
 }
  
@@ -197,7 +194,7 @@
 
 -(void)startVideo_repeat:(NSString *)movieName
 {
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+    //[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
 	NSURL * theURL;
 	NSBundle *bundle = [NSBundle mainBundle];
 	NSString *moviePath = [bundle pathForResource: movieName ofType:@"mp4"];

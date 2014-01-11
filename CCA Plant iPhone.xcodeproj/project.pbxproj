@@ -368,6 +368,8 @@
 		2A216E4712C2E617005CE63C /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
+				2A216E5112C32203005CE63C /* LessonConfig.m */,
+				2A216E5012C32203005CE63C /* LessonConfig.h */,
 				2A216FC212CDC60B005CE63C /* LessonCatalogViewController.h */,
 				2A216FC312CDC60B005CE63C /* LessonCatalogViewController.m */,
 				2A21717912D13351005CE63C /* LessonDetailViewController.h */,
@@ -402,21 +404,11 @@
 		2A216E4F12C321EA005CE63C /* PList */ = {
 			isa = PBXGroup;
 			children = (
-				2A216E5612C322DB005CE63C /* POCO */,
 				2A216E5312C32240005CE63C /* PlistManager.h */,
 				2A216E5412C32240005CE63C /* PlistManager.m */,
 				8500B0F91864100F00E5B271 /* lessons.plist */,
 			);
 			name = PList;
-			sourceTree = "<group>";
-		};
-		2A216E5612C322DB005CE63C /* POCO */ = {
-			isa = PBXGroup;
-			children = (
-				2A216E5012C32203005CE63C /* LessonConfig.h */,
-				2A216E5112C32203005CE63C /* LessonConfig.m */,
-			);
-			name = POCO;
 			sourceTree = "<group>";
 		};
 		2A21750112D1D821005CE63C /* UniverseImages */ = {

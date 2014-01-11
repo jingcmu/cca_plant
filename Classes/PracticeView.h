@@ -26,20 +26,16 @@
 
 }
 
-
 //erases all the lines drawn
 -(IBAction)eraseLines;
 
 //back to the lesson
 -(IBAction)backToLesson;
 
-
 //goes to the insrutions page
 -(IBAction)gotoInstructions;
 
 //toggles whether the character is hidden or shown.
 -(IBAction)showHideChar;
-
-
 
 @end
