@@ -17,235 +17,44 @@
 
 @implementation LessonCatalogViewController
 
-
-@synthesize navbar;
-@synthesize navleftbtn;
-@synthesize btnLesson1;
-@synthesize btnLesson2;
-@synthesize btnLesson3;
-@synthesize btnLesson4;
-@synthesize btnLesson5;
-@synthesize btnLesson6;
-@synthesize btnLesson7;
-@synthesize btnLesson8;
-@synthesize btnLesson9;
-
-@synthesize lblLesson1;
-@synthesize lblLesson2;
-@synthesize lblLesson3;
-@synthesize lblLesson4;
-@synthesize lblLesson5;
-@synthesize lblLesson6;
-@synthesize lblLesson7;
-@synthesize lblLesson8;
-@synthesize lblLesson9;
-
-
-// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/* 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization.
-    }
-    return self;
-}
- */
- 
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
-}
-*/
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations.
-    return YES;
-}
-*/
-
-- (void)dealloc {
-	[btnLesson1 release], btnLesson1 = nil;
- 
-    [super dealloc];
-}
-
 - (void)loadView
 {    
 	LessonConfig *config = nil;
 	UIView *catalogView = [[[UIView alloc] initWithFrame:CGRectMake(10,105,300,250)] autorelease];
 	catalogView.backgroundColor = [UIColor clearColor];
 	catalogView.layer.cornerRadius = 20.0;
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:1];
-	
-	lblLesson1 = [[UILabel alloc] initWithFrame:CGRectMake(30,70,60,20)];
-	[lblLesson1 setText:config.lesson_name];
-	[lblLesson1 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson1 setTextColor:[UIColor blackColor]];
-	[lblLesson1 setTextAlignment:ALIGN_CENTER];
-	[lblLesson1 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson1];
-	
-	btnLesson1 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson1.frame = CGRectMake(35,20,50,50);
-	btnLesson1.tag = 1;
-	[btnLesson1 setBackgroundImage:[UIImage imageNamed:@"rice.png"] forState:UIControlStateNormal];
-	[btnLesson1 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson1];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:2];
-	
-	lblLesson2 = [[UILabel alloc] initWithFrame:CGRectMake(120,70,60,20)];
-	[lblLesson2 setText:config.lesson_name];
-	[lblLesson2 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson2 setTextColor:[UIColor blackColor]]; 
-	[lblLesson2 setTextAlignment:ALIGN_CENTER];
-	[lblLesson2 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson2];
-	
-	btnLesson2 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson2.frame = CGRectMake(125,20,50,50);
-	btnLesson2.tag = 2;
-	[btnLesson2 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson2 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson2];
-		
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:3];
-	
-	lblLesson3 = [[UILabel alloc] initWithFrame:CGRectMake(210,70,60,20)];
-	[lblLesson3 setText:config.lesson_name];
-	[lblLesson3 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson3 setTextColor:[UIColor blackColor]]; 
-	[lblLesson3 setTextAlignment:ALIGN_CENTER];
-	[lblLesson3 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson3];
-	
-	btnLesson3 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson3.frame = CGRectMake(215,20,50,50);
-	btnLesson3.tag = 3;
-	[btnLesson3 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson3 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	
-	[catalogView addSubview:btnLesson3];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:4];
-	
-	lblLesson4 = [[UILabel alloc] initWithFrame:CGRectMake(30,165,60,20)];
-	[lblLesson4 setText:config.lesson_name];
-	[lblLesson4 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson4 setTextColor:[UIColor blackColor]]; 
-	[lblLesson4 setTextAlignment:ALIGN_CENTER];
-	[lblLesson4 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson4];
-	
-	btnLesson4 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson4.frame = CGRectMake(35,115,50,50);
-	btnLesson4.tag = 4;
-	[btnLesson4 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson4 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson4];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:5];
-	
-	lblLesson5 = [[UILabel alloc] initWithFrame:CGRectMake(100,165,100,20)];
-	[lblLesson5 setText:config.lesson_name];
-	[lblLesson5 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson5 setTextColor:[UIColor blackColor]]; 
-	[lblLesson5 setTextAlignment:ALIGN_CENTER];
-	[lblLesson5 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson5];
-	
-	btnLesson5 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson5.frame = CGRectMake(125,115,50,50);
-	btnLesson5.tag = 5;
-	[btnLesson5 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson5 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson5];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:6];
-	
-	lblLesson6 = [[UILabel alloc] initWithFrame:CGRectMake(210,165,60,20)];
-	[lblLesson6 setText:config.lesson_name];
-	[lblLesson6 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson6 setTextColor:[UIColor blackColor]]; 
-	[lblLesson6 setTextAlignment:ALIGN_CENTER];
-	[lblLesson6 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson6];
-	
-	btnLesson6 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson6.frame = CGRectMake(215,115,50,50);
-	btnLesson6.tag = 6;
-	[btnLesson6 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson6 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson6];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:7];
-	
-	lblLesson7 = [[UILabel alloc] initWithFrame:CGRectMake(30,260,60,20)];
-	[lblLesson7 setText:config.lesson_name];
-	[lblLesson7 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson7 setTextColor:[UIColor blackColor]]; 
-	[lblLesson7 setTextAlignment:ALIGN_CENTER];
-	[lblLesson7 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson7];
-	
-	btnLesson7 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson7.frame = CGRectMake(35,210,50,50);
-	btnLesson7.tag = 7;
-	[btnLesson7 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson7 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson7];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:8];
-	
-	lblLesson8 = [[UILabel alloc] initWithFrame:CGRectMake(100,260,100,20)];
-	[lblLesson8 setText:config.lesson_name];
-	[lblLesson8 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson8 setTextColor:[UIColor blackColor]]; 
-	[lblLesson8 setTextAlignment:ALIGN_CENTER];
-	[lblLesson8 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson8];
-	
-	btnLesson8 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson8.frame = CGRectMake(125,210,50,50);
-	btnLesson8.tag = 8;
-	[btnLesson8 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson8 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson8];
-	
-	config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:9];
-	
-	lblLesson9 = [[UILabel alloc] initWithFrame:CGRectMake(210,260,60,20)]; // moves (text)
-	[lblLesson9 setText:config.lesson_name];
-	[lblLesson9 setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
-	[lblLesson9 setTextColor:[UIColor blackColor]]; 
-	[lblLesson9 setTextAlignment:ALIGN_CENTER];
-	[lblLesson9 setBackgroundColor:[UIColor clearColor]];
-	[catalogView addSubview:lblLesson9];
-	
-	btnLesson9 = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
-	btnLesson9.frame = CGRectMake(215,210,50,50); // moves (frame)
-	btnLesson9.tag = 9;
-	[btnLesson9 setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
-	[btnLesson9 addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
-	[catalogView addSubview:btnLesson9];
+    const int button_size = 57;
+    const int lbl_width[] = {60,70,60,60,90,60,60,90,60}, lbl_height = 20;
+    const int label_X_Y[] = {30,80,120,80,210,80,30,175,110,175,210,175,30,270,110,270,210,270};
+    const int button_X_Y[] = {35,20,125,20,215,20,35,115,125,115,215,115,35,210,125,210,215,210};
+    
+    for(int i=0; i<9; i++) {
+        config = [PlistManager loadLessonConfigWithSeriesName:SERIES1_NAME andLessonId:i+1];
+        
+        btnLesson[i] = [[UIButton buttonWithType:UIButtonTypeRoundedRect] retain];
+        btnLesson[i].frame = CGRectMake(button_X_Y[i*2],button_X_Y[i*2+1],button_size,button_size);
+        btnLesson[i].tag = 1;
+        [btnLesson[i] setBackgroundImage:[UIImage imageNamed:config.icon_path] forState:UIControlStateNormal];
+        [btnLesson[i] addTarget:self action:@selector(buttonPressedAction:) forControlEvents:UIControlEventTouchUpInside];
+        [catalogView addSubview:btnLesson[i]];
+        
+        lblLesson[i] = [[UILabel alloc] initWithFrame:CGRectMake(label_X_Y[i*2],label_X_Y[i*2+1],lbl_width[i],lbl_height)];
+        [lblLesson[i] setText:config.lesson_name];
+        [lblLesson[i] setFont:[UIFont fontWithName:@"Marker Felt" size:16]];
+        [lblLesson[i] setTextColor:[UIColor blackColor]];
+        [lblLesson[i] setTextAlignment:ALIGN_CENTER];
+        [lblLesson[i] setBackgroundColor:[UIColor clearColor]];
+        [catalogView addSubview:lblLesson[i]];
+    }
+				
 	self.view = catalogView;
 }
-
-
 
 - (void)viewDidUnload {
 	[super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-
-
 
 - (IBAction)buttonPressedAction:(id)sender
 { 
